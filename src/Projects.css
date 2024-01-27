@@ -1,0 +1,54 @@
+.outerproject{
+    background-color: #F2FAFA;
+    margin-top: 50px;
+}
+.project{
+    font-family: "Lemonada",cursive;
+    padding: 20px;
+    padding-top: 40px;
+    
+}
+.project h3{
+    font-weight: bold;
+}
+.project hr{
+    width: 85%;
+}
+.project a{
+    text-decoration: none;
+}
+
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plate:hover{
+    scale: 1.1;
+}
+.plate img{
+    height: 15rem;
+}
+.plate{
+    margin: 10px;
+    width: 25rem;
+}
+@media screen and (max-width:991px) {
+    .plate{
+        height: 20rem;
+    }
+    .plate img{
+        height: 20rem;
+    }
+    .plate:hover{
+        scale: 1.01;
+    }
+}
+@media screen and (max-width:1240px) {
+    .plate{
+        width: 95%;
+    }
+    .plate img{
+        height: 13rem;
+    }
+}

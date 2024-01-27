@@ -1,0 +1,87 @@
+
+.card1{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 90vh;
+    background-color: black;
+    background: url('./home.jpeg');
+    opacity: 85%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card1 img{
+    opacity: 90%;
+
+}
+.card1 h1{
+    font-weight: bolder;
+    color: #F5FAFA;
+    font-size: 50px;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px ;
+    -webkit-text-stroke-color: black;
+    
+}
+.card1 h3{
+    
+    color: white;
+    
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px ;
+    -webkit-text-stroke-color: black;
+}
+.special{
+    color: #4EC8CA;
+}
+.btn{
+    padding: 15px;
+    background-color: #4EC8CA;
+    border: #4EC8CA;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Lemonada",cursive;
+    color: white;
+    margin-top: 10px;
+    
+    
+}
+.btn:hover{
+    background-color: #94E4E6;
+    color: black;
+    box-shadow: 10px 10px 37px 8px rgba(148,228,230,0.75);
+    -webkit-box-shadow: 10px 10px 37px 8px rgba(148,228,230,0.75);
+    -moz-box-shadow: 10px 10px 37px 8px rgba(148,228,230,0.75);
+    
+}
+.homehead1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (max-width:780px) {
+    .card1 {
+        height: 40vh;
+    }
+    .card1 h1{
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:400px) {
+    .card1 h1{
+        font-size: 25px;
+    }
+    
+}

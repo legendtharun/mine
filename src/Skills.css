@@ -1,0 +1,51 @@
+.skills{
+    padding: 20px;
+    margin-top: 50px;
+}
+.skills hr{
+    width: 83%;
+    /* margin-left: 25px; */
+}
+.skills h3{
+    font-family: "Lemonada",cursive;
+    font-weight: bold;
+}
+.skills h4{
+    font-family: "Lemonada",cursive;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.perbarin{
+    height:3px;
+    background-color: #4CC8CA;
+    margin-right:auto ;
+    width: 0%;
+    transition: 2s;
+    
+}
+.perbar1{
+    
+    /* position: absolute; */
+    animation: widthinc1 1s ease ;
+    animation-fill-mode: forwards;
+    
+}
+.singleskill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes widthinc1{
+    from {width: 0%;}
+    to {width: 95%;}
+}
+/* .sample{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.inspan{
+    padding-left: 10px;
+    margin-right: auto;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #F2FAFA;
+    z-index: 9;
+    
+}
+
+#brand{
+    text-decoration: none;
+    color: black;
+    
+}
+.options li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.options ul {
+    
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+#link:hover{
+    color: #4CC8CA;
+    cursor: pointer;
+}
+.options li a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: "Lemonada",cursive;
+}
+.options li a:hover{
+    color: #4CC8CA;
+    box-shadow: 37px 5px 31px -17px rgba(147,229,230,0.83);
+-webkit-box-shadow: 37px 5px 31px -17px rgba(147,229,230,0.83);
+-moz-box-shadow: 37px 5px 31px -17px rgba(147,229,230,0.83);
+
+}
+#mobtog{
+    font-size: 30px;
+    display: none;
+    
+}
+.mobmenu{
+    position: absolute;
+    position: fixed;
+    padding: 50px;
+    right: -2000%;
+    width: 100%;
+    height: 100vh;
+    background-color:#F2FAFA ;
+    display: none;
+    transition:  0.5s all ease-in-out;
+    z-index: 10;
+   
+}
+#moblink{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Lemonada",cursive;
+    padding-right: 5px;
+    margin: 0;
+    
+}
+.mobmenu li{
+    list-style: none;
+    background-color: #93E5E6;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 0;
+    text-align: center;
+
+}
+.mobmenu li:hover{
+    border: 2px solid ghostwhite;
+    /* font-size: 20px; */
+    scale: 1.1;
+    box-shadow: 37px 41px 31px -17px rgba(147,229,230,0.83);
+-webkit-box-shadow: 37px 41px 31px -17px rgba(147,229,230,0.83);
+-moz-box-shadow: 37px 41px 31px -17px rgba(147,229,230,0.83);
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .navbar ul {
+        display: none;
+    }
+    #mobtog{
+        display: block;
+    }
+    .mobmenu{
+        display: block;
+    }
+}
+@media screen and (max-width:430px) {
+    .mobmenu{
+        width: 100%;
+    }
+}
+.active{
+    color: #4CC8CA;
+}

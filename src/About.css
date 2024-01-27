@@ -1,0 +1,119 @@
+.about{
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+.about h3{
+    font-family: 'Lemonada',cursive;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.about h5{
+    font-family: 'Lemonada',cursive;
+    font-weight: bold;
+    /* font-size: 20px; */
+    margin-top: 20px;
+}
+.about p{
+    font-family: 'Lemonada',cursive;
+}
+.photo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.small_details{
+    font-size: 30px;
+    letter-spacing: 20px;
+    height: 300px;
+    width: 350px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    /* border: 2px solid black; */
+    margin: 0;
+    padding-bottom: 10px;
+}
+.small_details ul{
+    margin: 0;
+    padding: 0;
+}
+.small_details ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding:3px;
+}
+.small_details ul li:not(:first-child){
+    padding-left: 8px;
+}
+
+.small_details img{
+    margin: auto;
+}
+.small_div{
+    background-color: #4EC8CA;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small_div a{
+    color: #060F0F;
+}
+.image{
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+#icon:hover{
+    cursor: pointer;
+}
+.first_part ul{
+    margin: 0;
+    padding: 10px;
+}
+.first_part ul li{
+    display: inline-block;
+    font-family: "Lemonada",cursive;
+    font-size: small;
+    padding: 3px;
+    padding-bottom: 10px;
+    
+}
+.first_part ul li:not(:first-child){
+    padding-left: 20px;
+}
+@media screen and (max-width:780px) {
+    .small_details{
+        height: 250px;
+        width: 300px;
+    }
+    .first_part ul li:first-child{
+        padding-left: 20px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:1200px) {
+    /* .small_details{
+        height: 50vh;
+        width: 80%;
+    } */
+    
+}
+@media screen and (max-width:992px){
+    /* .small_details{
+        width: 80%;
+    } */
+    .first_part ul li:first-child{
+        padding-left: 20px;
+    }
+    
+}

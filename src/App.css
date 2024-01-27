@@ -1,0 +1,92 @@
+
+#dark .navbar #brand{
+    color: #F5FAFA;
+}
+#dark .navbar{
+    background-color: #091717;
+    color: #F5FAFA;
+}
+#dark .mobmenu{
+    background-color: #091717;
+    color: #F5FAFA;
+}
+#dark .mobmenu li{
+    background-color: #35AFB1;
+    color: #F5FAFA;
+}
+#dark .mobmenu li:hover{
+    box-shadow: 37px 41px 31px -17px #35AFB1;
+-webkit-box-shadow: 37px 41px 31px -17px #35AFB1;
+-moz-box-shadow: 37px 41px 31px -17px #35AFB1;
+}
+#dark .special{
+    color: #1CA3A6;
+}
+#dark .btn{
+    background-color: #35AFB1;
+    border: #35AFB1;
+}
+
+#dark .card1{
+    all: unset;
+}
+#dark .homehead {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 90vh;
+    background-color: black;
+    background: url('./home.jpeg');
+    opacity: 85%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#dark{
+    background-color: #060F0F;
+    color: #F5FAFA;
+}
+#dark .about{
+    background-color: #060F0F;
+    color: #F5FAFA;
+}
+#dark .small_div{
+    color: #091717;
+}
+#dark .education{
+    background-color: #091717;
+    color: #F5FAFA;
+}
+#dark .outerproject{
+    background-color: #091717;
+    color: #F5FAFA;
+}
+#dark #prof_icon{
+    color: #F5FAFA;
+}
+#dark #prof_icon:hover{
+    color: #35AFB1;
+}
+#dark #contact,#dark .footer{
+    background-color: #091717;
+    color: #F5FAFA;
+}
+#dark .secondside a{
+    color: #F5FAFA;
+}
+@media screen and (max-width:780px) {
+    #dark .homehead {
+        height: 40vh;
+    }
+    #dark .homehead h1{
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
