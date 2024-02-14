@@ -112,6 +112,9 @@
     /* .small_details{
         width: 80%;
     } */
+    .about{
+        margin-top: 20px;
+    }
     .first_part ul li:first-child{
         padding-left: 20px;
     }
