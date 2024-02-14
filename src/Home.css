@@ -5,9 +5,8 @@
     margin: 0;
     position: relative;
     height: 90vh;
-    background-color: black;
-    background: url('./home.jpeg');
-    opacity: 85%;
+    background:transparent;
+    opacity: 90%;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -17,9 +16,23 @@
     
     
 }
-.card1 img{
-    opacity: 90%;
+.card1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+    background: url('./home.jpeg');
+    background-position: center;
+    background-size: cover;
 
+}
+.homehead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card1 h1{
     font-weight: bolder;

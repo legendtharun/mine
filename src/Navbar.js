@@ -13,8 +13,10 @@ export default function Navbar(props) {
   }
   const Toggler = () => {
     if (but) {
+      document.body.style.overflow = "hidden";
       return <RxCross1 id="mobtog" onClick={Toggle} />;
     } else {
+      document.body.style.overflow = "unset";
       return <RxHamburgerMenu id="mobtog" onClick={Toggle} />;
     }
   };
@@ -22,7 +24,8 @@ export default function Navbar(props) {
     Toggle();
     props.value.ToggleTheme();
   };
-  const mobtext = props.value.theme === "dark" ? "Light Mode" : "Dark Mode";
+  const mobtext = props.value.theme === "dark" ? "LIGHT MODE" : "DARK MODE";
+
   return (
     <>
       <div className="navbar">
@@ -105,6 +108,10 @@ export default function Navbar(props) {
                   id="button"
                   onChange={props.value.ToggleTheme}
                   checked={props.value.theme === "dark"}
+                  onColor="#1CA3A6"
+                  checkedIcon={false}
+                  uncheckedIcon={false}
+                  activeBoxShadow="0 0 2px 3px #35AFB1"
                 />
               </li>
             </ul>

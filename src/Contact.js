@@ -87,7 +87,9 @@ export default function Contact() {
               <span>
                 <h6>Website</h6>
                 <p>
-                  <a href="#">legendtharun.Website</a>
+                  <a href="https://legendtharun.github.io/mine">
+                    legendtharun.Website
+                  </a>
                 </p>
               </span>
               <span>

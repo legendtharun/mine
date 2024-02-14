@@ -1,3 +1,6 @@
+*{
+    transition: background ease-in-out 0.4s;
+}
 
 #dark .navbar #brand{
     color: #F5FAFA;
@@ -7,7 +10,7 @@
     color: #F5FAFA;
 }
 #dark .mobmenu{
-    background-color: #091717;
+    background: transparent;
     color: #F5FAFA;
 }
 #dark .mobmenu li{
@@ -27,7 +30,7 @@
     border: #35AFB1;
 }
 
-#dark .card1{
+/* #dark .card1{
     all: unset;
 }
 #dark .homehead {
@@ -36,8 +39,8 @@
     margin: 0;
     position: relative;
     height: 90vh;
-    background-color: black;
-    background: url('./home.jpeg');
+    
+    
     opacity: 85%;
     background-position: center;
     background-size: cover;
@@ -45,13 +48,13 @@
     justify-content: center;
     align-items: center;
     
-}
+} */
 #dark{
     background-color: #060F0F;
     color: #F5FAFA;
 }
 #dark .about{
-    background-color: #060F0F;
+    /* background-color: #060F0F; */
     color: #F5FAFA;
 }
 #dark .small_div{
@@ -77,6 +80,11 @@
 }
 #dark .secondside a{
     color: #F5FAFA;
+}
+#dark .mobmenu::before{
+    opacity: 0.9;
+    background-color: #091717;
+   
 }
 @media screen and (max-width:991px) {
     #dark .homehead {

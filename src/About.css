@@ -89,6 +89,7 @@
 .first_part ul li:not(:first-child){
     padding-left: 20px;
 }
+
 @media screen and (max-width:780px) {
     .small_details{
         height: 250px;
