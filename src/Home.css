@@ -67,7 +67,7 @@
     align-items: center;
     
 }
-@media screen and (max-width:780px){
+@media screen and (max-width:991px){
     .card1 {
         height: 50vh;
     }
