@@ -78,6 +78,18 @@
 #dark .secondside a{
     color: #F5FAFA;
 }
+@media screen and (max-width:991px) {
+    #dark .homehead {
+        height: 60vh;
+    }
+    #dark .homehead h1{
+        font-size: 40px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 15px;
+    }
+}
 @media screen and (max-width:780px) {
     #dark .homehead {
         height: 40vh;

@@ -47,6 +47,7 @@ body{
 }
 #mobtog{
     font-size: 30px;
+    cursor: pointer;
     display: none;
     
 }

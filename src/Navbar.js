@@ -169,7 +169,7 @@ export default function Navbar(props) {
         >
           <li>CONTACT</li>
         </Link>
-        <Link to="home" id="moblink" onClick={MobdarkButton}>
+        <Link id="moblink" onClick={MobdarkButton}>
           <li>{mobtext}</li>
         </Link>
       </ul>
