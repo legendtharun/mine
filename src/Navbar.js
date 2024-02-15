@@ -21,7 +21,7 @@ export default function Navbar(props) {
     }
   };
   const MobdarkButton = () => {
-    Toggle();
+    // Toggle();
     props.value.ToggleTheme();
   };
   const mobtext = props.value.theme === "dark" ? "LIGHT MODE" : "DARK MODE";
